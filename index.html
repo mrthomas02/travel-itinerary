@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Itinerary Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Travel Itinerary Planner</h1>
+
+    <div class="container">
+        <div class="section">
+            <h2>Add Destination</h2>
+            <input type="text" id="destination" placeholder="Enter destination">
+            <button onclick="addDestination()">Add</button>
+            <ul id="destination-list"></ul>
+        </div>
+
+        <div class="section">
+            <h2>Add Accommodation</h2>
+            <input type="text" id="accommodation" placeholder="Enter accommodation">
+            <button onclick="addAccommodation()">Add</button>
+            <ul id="accommodation-list"></ul>
+        </div>
+
+        <div class="section">
+            <h2>Add Activity</h2>
+            <input type="text" id="activity" placeholder="Enter activity">
+            <button onclick="addActivity()">Add</button>
+            <ul id="activity-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
